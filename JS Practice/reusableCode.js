@@ -9,7 +9,7 @@ const area = function(radius){
 // <----- use to calculate circuference 
 
 const cicumference = function(radius){
-    return  Math.PI * Math.PI * radius
+    return  2 * Math.PI * radius
 }
 
 const calculate = function(radius , logic){
