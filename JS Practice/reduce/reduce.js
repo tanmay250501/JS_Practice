@@ -11,9 +11,9 @@ function findSum(arr){
         sum = sum + arr[i]
     }
     return sum;
-}
+};
 
-// using the same example by using reduc
+// using the same example by using reduc =>  try it yourself
 const output = arr.reduce(function (acc , curr){
     acc = acc + curr; // here curr => arr[i]
     return acc; // acc => sum
@@ -36,6 +36,9 @@ function findMax(arr){
 }
 
 console.log(findMax(arr))
+
+
+
 
 // using reduc() to find max
 
