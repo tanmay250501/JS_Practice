@@ -37,6 +37,11 @@ console.log(arr);
 arr.unshift(10 , 100)
 console.log(arr);
 
+// (5) .The indexOf( ) method is used to return the first index at which the given element is found in the array. If the element is not found, then -1 is returned.
+
+console.log(arr.indexOf(1))
+console.log(arr.indexOf(2))
+
 // When using an array inside an array, you can access the value of the inner array directly 
 
 let arr1 = [ 1, 2 , [2 , 3]]
