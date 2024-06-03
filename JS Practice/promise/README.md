@@ -92,7 +92,8 @@ fetch('https://api.example.com/data')
 
 Promises simplify the management of asynchronous operations by providing a more readable and maintainable way to handle success and failure scenarios. They are an essential part of modern JavaScript development, especially when dealing with operations that take time to complete, such as network requests, file reading, or timers.
 
-The code inpromise.js file is demonstrating two different ways to handle asynchronous operations: using callbacks and using promises. I'll explain both parts.
+### Explaination Of Code Writen in promise.js
+The code in promise.js file is demonstrating two different ways to handle asynchronous operations: using callbacks and using promises. I'll explain both parts.
 
 ### Part 1: Using Callbacks
 
